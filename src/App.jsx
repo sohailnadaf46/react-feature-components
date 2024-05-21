@@ -2,7 +2,8 @@ import React from "react";
 import Accordian from "./components/accordian";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/starrating";
-import ImageSlider from "./components/image-slider"
+import ImageSlider from "./components/image-slider";
+import ShowMoreData from "./components/load-more-data";
 export default function App(){
   return(
     <div className="App">
@@ -14,9 +15,10 @@ export default function App(){
       <StarRating  noOfStars={10}/> */}
       
       {/* image slider component */}
-      <ImageSlider url={"https://picsum.photos/v2/list"}
+      {/* <ImageSlider url={"https://picsum.photos/v2/list"}
         page={"1"}
-        limit={"10"}/>
+        limit={"10"}/> */}
+        <ShowMoreData />
     </div>
   )
 }
