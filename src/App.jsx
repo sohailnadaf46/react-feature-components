@@ -4,6 +4,8 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/starrating";
 import ImageSlider from "./components/image-slider";
 import ShowMoreData from "./components/load-more-data";
+import TreaView from "./components/tree-structure-view/Index.jsx";
+import menus from "./components/tree-structure-view/data";
 export default function App(){
   return(
     <div className="App">
@@ -18,7 +20,13 @@ export default function App(){
       {/* <ImageSlider url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}/> */}
-        <ShowMoreData />
+        {/* <ShowMoreData /> */}
+
+        {/*Tree View Component || menu UI component || recursive  menu  */}
+        <TreaView menus={menus}/>
+       
+
+
     </div>
   )
 }
