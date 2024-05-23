@@ -7,6 +7,7 @@ import ShowMoreData from "./components/load-more-data";
 import TreaView from "./components/tree-structure-view/Index.jsx";
 import menus from "./components/tree-structure-view/data";
 import CodeGenerator from "./components/qr-code-generator/index.jsx";
+import LightDark from "./components/Light-Dark-Mode/index.jsx";
 export default function App(){
   return(
     <div className="App">
@@ -26,10 +27,12 @@ export default function App(){
         {/*Tree View Component || menu UI component || recursive  menu  */}
         {/* <TreaView menus={menus}/> */}
 
-        {/* QR-Code Generator */}
+        {/* QR-Code Generator
         <CodeGenerator />
-       
+        */}
 
+        {/* ligt dark mode using react */}
+        <LightDark />
 
     </div>
   )
