@@ -2,6 +2,8 @@ import React from "react";
 import useLocalStorage from "./useLocalStorage";
 import "./theme.css"
 
+//we have to create a custom hook and pass the theme in that from that hook it will fetch the localstorage whether it will take keya and default value and come revise the code again if confused  
+
 const LightDark = () => {
   const [theme, setTheme] = useLocalStorage("theme", "dark");
 

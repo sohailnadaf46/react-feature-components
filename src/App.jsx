@@ -8,6 +8,7 @@ import TreaView from "./components/tree-structure-view/Index.jsx";
 import menus from "./components/tree-structure-view/data";
 import CodeGenerator from "./components/qr-code-generator/index.jsx";
 import LightDark from "./components/Light-Dark-Mode/index.jsx";
+import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 export default function App(){
   return(
     <div className="App">
@@ -32,7 +33,10 @@ export default function App(){
         */}
 
         {/* ligt dark mode using react */}
-        <LightDark />
+        {/* <LightDark /> */}
+
+        {/* custom scroll indicator */}
+        <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
 
     </div>
   )
