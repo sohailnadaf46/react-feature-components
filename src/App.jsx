@@ -10,6 +10,7 @@ import CodeGenerator from "./components/qr-code-generator/index.jsx";
 import LightDark from "./components/Light-Dark-Mode/index.jsx";
 import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 import Tabs from "./components/custom-tabs/Tabs.jsx";
+import Modeltest from "./components/custom-model-popup/Modeltest.jsx";
 export default function App(){
   return(
     <div className="App">
@@ -40,8 +41,10 @@ export default function App(){
         {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
 
         {/* custom tabs to show dynamic content */}
-        <Tabs />
+        {/* <Tabs /> */}
 
+        {/* Custom Model popup*/}
+        <Modeltest />
     </div>
   )
 }

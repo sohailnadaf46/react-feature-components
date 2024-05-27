@@ -1,4 +1,8 @@
+// have to create a custom tab when I click it should show the dynamic data passed by the parent
+//creating a state to store the index passed after I click the particular label
+
 import { useState } from "react";
+import "./tabs.css"
 
 export default function Tabs({ tabsContent, onChange }) {
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
