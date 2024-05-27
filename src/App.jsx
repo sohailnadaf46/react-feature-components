@@ -9,6 +9,7 @@ import menus from "./components/tree-structure-view/data";
 import CodeGenerator from "./components/qr-code-generator/index.jsx";
 import LightDark from "./components/Light-Dark-Mode/index.jsx";
 import ScrollIndicator from "./components/scroll-indicator/index.jsx";
+import Tabs from "./components/custom-tabs/Tabs.jsx";
 export default function App(){
   return(
     <div className="App">
@@ -36,7 +37,10 @@ export default function App(){
         {/* <LightDark /> */}
 
         {/* custom scroll indicator */}
-        <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
+        {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
+
+        {/* custom tabs to show dynamic content */}
+        <Tabs />
 
     </div>
   )
