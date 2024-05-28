@@ -12,6 +12,7 @@ import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 import Tabs from "./components/custom-tabs/Tabs.jsx";
 import Modeltest from "./components/custom-model-popup/Modeltest.jsx";
 import GithubProfileFInder from "./components/custom-model-popup/Github-Profile-Finder/GithubProfileFInder.jsx";
+import SearchAutocomplete from "./components/Search- AutoComplete/SearchAutocomplete.jsx";
 export default function App(){
   return(
     <div className="App">
@@ -48,7 +49,10 @@ export default function App(){
         {/* <Modeltest /> */}
 
         {/* github profile finder */}
-        <GithubProfileFInder />
+        {/* <GithubProfileFInder /> */}
+
+        {/* search autcomplete */}
+        <SearchAutocomplete />
     </div>
   )
 }

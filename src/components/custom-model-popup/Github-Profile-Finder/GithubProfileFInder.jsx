@@ -44,6 +44,8 @@ const GithubProfileFInder = () => {
             alt="profile-img"
           />
           <p className="user-name">{foundUser.name}</p>
+          <p className="user-name">Joined on : {foundUser.created_at}</p>
+          <p className="user-name">Public Repositories :{foundUser.public_repos}</p>
           <a
             href={foundUser.html_url}
             target="_blank"
