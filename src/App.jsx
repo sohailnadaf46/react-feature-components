@@ -11,6 +11,7 @@ import LightDark from "./components/Light-Dark-Mode/index.jsx";
 import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 import Tabs from "./components/custom-tabs/Tabs.jsx";
 import Modeltest from "./components/custom-model-popup/Modeltest.jsx";
+import GithubProfileFInder from "./components/custom-model-popup/Github-Profile-Finder/GithubProfileFInder.jsx";
 export default function App(){
   return(
     <div className="App">
@@ -44,7 +45,10 @@ export default function App(){
         {/* <Tabs /> */}
 
         {/* Custom Model popup*/}
-        <Modeltest />
+        {/* <Modeltest /> */}
+
+        {/* github profile finder */}
+        <GithubProfileFInder />
     </div>
   )
 }
