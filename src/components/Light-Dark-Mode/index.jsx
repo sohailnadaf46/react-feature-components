@@ -15,7 +15,7 @@ const LightDark = () => {
     <div className="light-dark-mode" data-theme={theme}>
       <div className="container">
         <p>Hello there!</p>
-        <button onClick={handleToggleTheme}>Change Theme</button>
+        <button className="change" onClick={handleToggleTheme}>Change Theme</button>
       </div>
     </div>
   );
