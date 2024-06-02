@@ -14,6 +14,7 @@ import Modeltest from "./components/custom-model-popup/Modeltest.jsx";
 import GithubProfileFInder from "./components/custom-model-popup/Github-Profile-Finder/GithubProfileFInder.jsx";
 import SearchAutocomplete from "./components/Search- AutoComplete/SearchAutocomplete.jsx";
 import TicToe from "./components/tic-tac-toe/index.jsx";
+import UseFetchCustomeHook from "./components/Use-fetch/test.jsx";
 export default function App(){
   return(
     <div className="App">
@@ -57,7 +58,10 @@ export default function App(){
         {/* <SearchAutocomplete /> */}
 
         {/* tic tac toe */}
-        <TicToe />
+        {/* <TicToe /> */}
+
+        {/* UseFetch custom hook */}
+        <UseFetchCustomeHook />
     </div>
   )
 }
