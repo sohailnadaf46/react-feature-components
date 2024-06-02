@@ -18,43 +18,43 @@ export default function App(){
   return(
     <div className="App">
        {/* Accordian component */}
-      { <Accordian /> }
+      {/* { <Accordian /> } */}
        {/* random_color */}
-       <RandomColor />
+       {/* <RandomColor /> */}
        {/* start rating  */}
-      <StarRating  noOfStars={10}/>
+      {/* <StarRating  noOfStars={10}/> */}
       
       {/* image slider component */}
-      <ImageSlider url={"https://picsum.photos/v2/list"}
+      {/* <ImageSlider url={"https://picsum.photos/v2/list"}
         page={"1"}
-        limit={"10"}/>
-
-        <ShowMoreData />
+        limit={"10"}/> */}
+{/* 
+        <ShowMoreData /> */}
 
         {/*Tree View Component || menu UI component || recursive  menu  */}
-        <TreaView menus={menus}/>
+        {/* <TreaView menus={menus}/> */}
 
         {/* QR-Code Generator */}
-        <CodeGenerator />
+        {/* <CodeGenerator /> */}
        
 
         {/* ligt dark mode using react */}
-        <LightDark />
+        {/* <LightDark /> */}
 
         {/* custom scroll indicator */}
-        <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
+        {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
 
         {/* custom tabs to show dynamic content */}
-        <Tabs />
+        {/* <Tabs /> */}
 
         {/* Custom Model popup*/}
-        <Modeltest />
+        {/* <Modeltest /> */}
 
         {/* github profile finder */}
-        <GithubProfileFInder />
+        {/* <GithubProfileFInder /> */}
 
         {/* search autcomplete */}
-        <SearchAutocomplete />
+        {/* <SearchAutocomplete /> */}
 
         {/* tic tac toe */}
         <TicToe />
