@@ -16,56 +16,59 @@ import SearchAutocomplete from "./components/Search- AutoComplete/SearchAutocomp
 import TicToe from "./components/tic-tac-toe/index.jsx";
 import UseFetchCustomeHook from "./components/Use-fetch/test.jsx";
 import UseOnClickOutsideTest from "./components/use-outside-click/test.jsx";
-export default function App(){
-  return(
+import UseWindowResizeTest from "./components/use-window -resize/test.jsx";
+export default function App() {
+  return (
     <div className="App">
-       {/* Accordian component */}
+      {/* Accordian component */}
       {/* { <Accordian /> } */}
-       {/* random_color */}
-       {/* <RandomColor /> */}
-       {/* start rating  */}
+      {/* random_color */}
+      {/* <RandomColor /> */}
+      {/* start rating  */}
       {/* <StarRating  noOfStars={10}/> */}
-      
+
       {/* image slider component */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}/> */}
-{/* 
+      {/* 
         <ShowMoreData /> */}
 
-        {/*Tree View Component || menu UI component || recursive  menu  */}
-        {/* <TreaView menus={menus}/> */}
+      {/*Tree View Component || menu UI component || recursive  menu  */}
+      {/* <TreaView menus={menus}/> */}
 
-        {/* QR-Code Generator */}
-        {/* <CodeGenerator /> */}
-       
+      {/* QR-Code Generator */}
+      {/* <CodeGenerator /> */}
 
-        {/* ligt dark mode using react */}
-        {/* <LightDark /> */}
+      {/* ligt dark mode using react */}
+      {/* <LightDark /> */}
 
-        {/* custom scroll indicator */}
-        {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
+      {/* custom scroll indicator */}
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
 
-        {/* custom tabs to show dynamic content */}
-        {/* <Tabs /> */}
+      {/* custom tabs to show dynamic content */}
+      {/* <Tabs /> */}
 
-        {/* Custom Model popup*/}
-        {/* <Modeltest /> */}
+      {/* Custom Model popup*/}
+      {/* <Modeltest /> */}
 
-        {/* github profile finder */}
-        {/* <GithubProfileFInder /> */}
+      {/* github profile finder */}
+      {/* <GithubProfileFInder /> */}
 
-        {/* search autcomplete */}
-        {/* <SearchAutocomplete /> */}
+      {/* search autcomplete */}
+      {/* <SearchAutocomplete /> */}
 
-        {/* tic tac toe */}
-        {/* <TicToe /> */}
+      {/* tic tac toe */}
+      {/* <TicToe /> */}
 
-        {/* UseFetch custom hook */}
-        {/* <UseFetchCustomeHook /> */}
+      {/* UseFetch custom hook */}
+      {/* <UseFetchCustomeHook /> */}
 
-        {/* use Onclick outside hook test */}
-        <UseOnClickOutsideTest />
+      {/* use Onclick outside hook test */}
+      {/* <UseOnClickOutsideTest /> */}
+
+      {/* Use window resize window test */}
+      <UseWindowResizeTest />
     </div>
-  )
+  );
 }
