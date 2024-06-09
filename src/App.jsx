@@ -17,6 +17,7 @@ import TicToe from "./components/tic-tac-toe/index.jsx";
 import UseFetchCustomeHook from "./components/Use-fetch/test.jsx";
 import UseOnClickOutsideTest from "./components/use-outside-click/test.jsx";
 import UseWindowResizeTest from "./components/use-window -resize/test.jsx";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/index.jsx";
 export default function App() {
   return (
     <div className="App">
@@ -68,7 +69,10 @@ export default function App() {
       {/* <UseOnClickOutsideTest /> */}
 
       {/* Use window resize window test */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+
+      {/* scroll top and bottom feature */}
+      <ScrollToTopAndBottom />
     </div>
   );
 }
